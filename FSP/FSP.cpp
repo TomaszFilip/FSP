@@ -13,7 +13,7 @@ class Dane {
 public:
 	int ilezadan;
 	int ilemaszyn;
-	vector<vector<int>> zadania; //zapisane w postaci [ID][t na m1][t na m2]...[t na m]
+	vector<vector<int>> zadania; //zapisane w postaci[t na m1][t na m2]...[t na m] [ID]
 	Dane(int n, int m) {
 		ilezadan = n;
 		ilemaszyn = m ; 
